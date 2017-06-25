@@ -1,0 +1,11 @@
+body{
+    background-color:cadetblue;
+    font-family: 'DejaVu Sans Mono', monospace;
+}
+.bookHeadLine{
+    font-size: 12pt;
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}

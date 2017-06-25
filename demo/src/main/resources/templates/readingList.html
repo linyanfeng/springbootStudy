@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.springframework.org/schema/data/jaxb" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8"/>
+    <title>readingList</title>
+    <link rel="stylesheet" th:href="@{/style.css}"/>
+</head>
+<body>
+<h2>书单</h2>
+<div th:each="book:${books}">
+    <dt class="bookHeadLine">
+    <span th:text="${book.title}">Title</span> des
+    <span th:text="${book.des}">Des</span>
+    </dt>
+</div>
+<div th:if="${#lists.isEmpty(books)}">
+    <p>
+        当前还没有书籍
+    </p>
+</div>
+<h3> 新增书籍</h3>
+<form method="post">
+    <label for="title">Title:</label>
+    <input type="text" name="title" size="50"/><br/>
+    <label for="des">Des:</label>
+    <input type="text" name="des" size="50"/><br/>
+    <input type="submit"/>
+</form>
+</body>
+</html>
