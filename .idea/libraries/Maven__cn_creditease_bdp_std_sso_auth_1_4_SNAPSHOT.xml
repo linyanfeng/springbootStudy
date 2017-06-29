@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.creditease.bdp:std-sso-auth:1.4-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/creditease/bdp/std-sso-auth/1.4-SNAPSHOT/std-sso-auth-1.4-20170629.063218-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/creditease/bdp/std-sso-auth/1.4-SNAPSHOT/std-sso-auth-1.4-20170629.063218-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/creditease/bdp/std-sso-auth/1.4-SNAPSHOT/std-sso-auth-1.4-20170629.063218-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
